@@ -29,13 +29,13 @@ jobs:
         with:
           node-version: 23
 
-      - uses: oven-sh/setup-bun@v2
+      - uses: actions/setup-node@v4
         with:
-          bun-version: 1.1.30
+          node-version: 23
 
-      - name: Install Bun Dependencies
+      - name: Install npm Dependencies
         run: |
-          bun install
+          npm install
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -48,4 +48,4 @@ jobs:
 
       - name: Run Build Script
         run: |
-          bash build.sh
+          bash build_and_deploy.sh

@@ -8,7 +8,6 @@ This repository contains scripts for fetching data from Kantan CMS, converting i
 
 - **Node.js** (v16 or higher)
 - **npm** (v7 or higher)
-- **Bun** - Used for building the site
 
 Global Dependencies
 ```bash

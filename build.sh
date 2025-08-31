@@ -28,9 +28,9 @@ fi
 echo "✅ Content conversion completed successfully"
 echo
 
-# Step 3: Build the site with Bun
-echo "🏗️ Step 3/4: Building the site with Bun..."
-bun run build
+# Step 3: Build the site with npm
+echo "🏗️ Step 3/4: Building the site with npm..."
+npm run build
 if [ $? -ne 0 ]; then
     echo "❌ Error: Failed to build the site"
     exit 1
