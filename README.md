@@ -28,7 +28,7 @@ CMS_API_KEY=<your_api_key>
 CMS_BASE_URL=https://api.kantan-cms.com
 
 # Optional
-KANTAN_REQUIRED_COLLECTIONS=Blog,Authors,Categories
+KANTAN_REQUIRED_COLLECTIONS=<Collections> # comma separation
 KANTAN_STORAGE_PATH=./tmp
 STATIC_OUTPUT_DIR=./out
 ZIP_FILENAME=site-export.zip
